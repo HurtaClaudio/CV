@@ -22,13 +22,18 @@ font-weight: bold;
 text-align: center;
 top: -10px;
 left:0px;
-visibility:hidden;
+opacity: 0
 }
 
 .list-inline-item:hover .text {
-visibility:visible;
+animation: fadein 1s;
+animation-fill-mode: forwards;
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 @media (min-width: 992px) {
   body {
