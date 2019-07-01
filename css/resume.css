@@ -10,6 +10,20 @@ body {
   color: #868e96;
 }
 
+.list-inline-item .text {
+position:relative;
+font-size: 10px;
+text-align: center;
+top: -10px;
+left:0px;
+visibility:hidden;
+}
+
+.list-inline-item:hover .text {
+visibility:visible;
+}
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
