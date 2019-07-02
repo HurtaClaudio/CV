@@ -33,6 +33,7 @@ body {
 #prog-icons{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .list-inline-item .text {
