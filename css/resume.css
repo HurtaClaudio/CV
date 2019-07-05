@@ -43,17 +43,18 @@ font-weight: bold;
 text-align: center;
 top: -10px;
 left:0px;
-opacity: 0;
+opacity: 1;
 }
 
-.list-inline-item:hover .text {
-animation: fadein 1s;
-animation-fill-mode: forwards;
-}
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   .list-inline-item .text{
-    opacity:1;    
+    opacity:0;
+  }
+
+  .list-inline-item:hover .text {
+  animation: fadein 1s;
+  animation-fill-mode: forwards;
   }
 }
 
