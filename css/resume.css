@@ -52,8 +52,9 @@ animation-fill-mode: forwards;
 }
 
 @media (max-width: 992px) {
-  .list-inline-item .text
-    opacity:1;
+  .list-inline-item .text{
+    opacity:1;    
+  }
 }
 
 @keyframes fadein {
